@@ -1,0 +1,139 @@
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    color:grey;
+    padding-bottom: 3rem;
+    line-height: 1.5;
+}
+
+h2{
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+}
+header{
+    background-image: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+ h1{
+    font-size: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+
+ button{
+    color:#fff;
+    border:none;
+    font-family: 700;
+    font-size: 1.5rem;
+    background-color: hsl(171, 66%, 44%);
+    padding:1rem 6rem;
+    border-radius: 30px;
+
+}
+ button:hover{
+    color:#000;
+}
+.mac{
+    margin-top: 1rem;
+    background-color: hsl(233, 100%, 69%);
+    padding-left:5.7rem;
+    padding-right:5.7rem;
+}
+
+.section-one{
+    text-align: center;
+    padding-top:10rem;
+ 
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.snipets-option{
+    padding-top:5rem;
+}
+
+.small img{
+width:40%;
+padding-bottom: 5rem;
+display: block;
+margin: 0 auto;
+  
+}
+
+.like-header{
+   
+    text-align: center;
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
+    
+}
+.final-section{
+    background-color: lemonchiffon;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.final-section svg{
+   margin-bottom: 3rem;
+}
+
+.flex-2 svg{
+    margin:0 1.5rem;
+}
+
+@media (min-width:1400px) {
+    .grid-one{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+    .grid-two{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    .small{
+        display:grid;
+        grid-template-columns:repeat(5, 1fr) ;
+    }
+    .snipets-option{
+        padding-top: 0;
+    }
+
+    .final-section{
+        display: flex;
+        justify-content: space-around;
+    }
+    .flex-one{
+        display: flex;
+        align-content: space-evenly;
+        gap: 3rem;
+        text-align: left;
+    }
+    
+    header{
+        background-image: url(./images/bg-header-desktop.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
